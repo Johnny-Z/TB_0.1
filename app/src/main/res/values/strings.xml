@@ -1,0 +1,110 @@
+<resources>
+    <string name="app_name">TB_0.1</string>
+
+    <string name="main_home_text">首页</string>
+    <string name="main_mine_text">帖子信息</string>
+    <string name="main_attention_text">我的</string>
+
+    <array name="home_item_tab">
+        <item>热门话题@dream@0</item>
+        <item>游戏@dream@1</item>
+        <item>综艺@dream@2</item>
+        <item>电影@dream@3</item>
+        <item>电视@dream@4</item>
+        <item>少儿@dream@5</item>
+        <item>音乐@dream@6</item>
+    </array>
+
+    <array name="topic_item_tab">
+        <item>创建新帖</item>
+        <item>我收藏的</item>
+        <item>我评论的</item>
+        <item>我赞过的</item>
+        <item>浏览历史</item>
+        <item>我发布的</item>
+        <!--<item>帖子搜索</item>-->
+    </array>
+
+    <array name="type_item_tab">
+        <item>游戏</item>
+        <item>综艺</item>
+        <item>电影</item>
+        <item>电视</item>
+        <item>少儿</item>
+        <item>音乐</item>
+    </array>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+</resources>

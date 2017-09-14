@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeeee"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:background="#262B4D"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="1dp"
+            android:gravity="center"
+            android:text="。。。"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="9dp"
+        android:layout_marginRight="9dp"
+        android:layout_marginTop="1dp"
+        android:background="#ffffff"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="#ffffff"
+            android:paddingBottom="11dp"
+            android:paddingLeft="4dp"
+            android:paddingTop="11dp"
+            android:textSize="14sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginLeft="9dp"
+        android:layout_marginRight="9dp"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+        android:orientation="vertical">
+
+        <!--<TextView-->
+            <!--android:id="@+id/tv_detail"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="#ffffff"-->
+            <!--android:gravity="top"-->
+            <!--android:scrollbars="vertical"-->
+            <!--android:scrollbarStyle="outsideOverlay"-->
+            <!--android:paddingBottom="11dp"-->
+            <!--android:paddingLeft="4dp"-->
+            <!--android:paddingTop="11dp"-->
+            <!--android:textSize="14sp"/>-->
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lv_cmtlist"
+            android:divider="#eeeeee"
+            android:dividerHeight="10dp"></ListView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:layout_marginTop="1dp"
+        android:background="#aaaaaa"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/et_commont"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:hint="输入内容"
+            android:cursorVisible="false"
+            android:gravity="top"
+            android:paddingBottom="11dp"
+            android:paddingLeft="4dp"
+            android:paddingTop="10dp"
+            android:textSize="14sp"/>
+        <Button
+            android:id="@+id/btn_commont"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="匿名评论"
+            />
+    </LinearLayout>
+
+</LinearLayout>
